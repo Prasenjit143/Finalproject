@@ -1,0 +1,126 @@
+<html>
+ <head>
+    <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		 <style>
+		    body {
+               background-image: url("img/bg.jpg");
+               
+              }
+			  .bg-1{
+			     padding: 0px;
+			  }
+			  .bg-4 { margin-top : 2px;
+                       background-color: #2f2f2f;
+                      color: #ffffff;
+					  height: 200 px;
+                 } 
+			.bg-2{
+			margin-top : 2px;
+			 background-color: grey;
+			 color: white;
+			 height: 20 px;
+             border-radius: 8px;			 
+			}	 
+			.bg-3{
+			margin-top : 2px;
+			   height: 100%;
+			   width: 100%;
+			   background-color: white;
+			   border-radius: 8px;
+			}	
+			.bg-6{
+			  
+			}
+			
+		 </style>
+		
+		</head>  
+<body>
+     <div class="container">
+	     <div class="container-fluid bg-1 text-center">
+    
+             <img src="img/Header.jpg" alt="Header" class="img-rounded">
+    
+            </div>
+			<div class="container-fluid bg-2">
+			 
+			 </div>
+			 <div class="container-fluid bg-3 text-center">
+			    <h2>Admin Home</h2>
+  <p>Admin can Add Officer ,Update them And Access to Every Modules.</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Add Officer</a></li>
+    <li><a data-toggle="tab" href="#menu1">Update Officer</a></li>
+    <li><a data-toggle="tab" href="#menu2">Permission</a></li>
+    <li><a data-toggle="tab" href="#menu3">Logs </a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Add Officer</h3>
+       
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Update Officer</h3>
+      <p>Update Here</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Permission</h3>
+	   
+	   <form>
+    <div class="form-group col-sm-4">
+      <label for="sel1">Select Officer</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      <br>
+    </div>
+  </form>
+	  
+	  
+       <form>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="">Add Case
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="">Add Suspect
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="">Evidence
+    </label><br /> <br />
+	<label class="checkbox-inline">
+      <input type="checkbox" value="">Criminal Databse
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="">Add Criminal Details
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" value="">Logs
+    </label> <br /> <br />
+	<center><input type="submit" value="Allow" class="btn btn-primary"/></center> 
+  </form>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Logs</h3>
+      <p>Check Logs</p>
+    </div>
+  </div>
+			    
+			 </div>
+			
+		      <footer class="container-fluid bg-4 text-center">
+              <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+              </footer>	
+	 </div>
+     
+</body>
+</html>

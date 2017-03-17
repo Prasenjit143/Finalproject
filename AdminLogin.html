@@ -1,0 +1,87 @@
+<html>
+ <head>
+    <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		 <style>
+		    body {
+               background-image: url("img/bg.jpg");
+               
+              }
+			  .bg-1{
+			     padding: 0px;
+			  }
+			  .bg-4 { margin-top : 2px;
+                       background-color: #2f2f2f;
+                      color: #ffffff;
+					  height: 200 px;
+                 } 
+			.bg-2{
+			margin-top : 2px;
+			 background-color: grey;
+			 color: white;
+			 height: 20 px;
+             border-radius: 8px;			 
+			}	 
+			.bg-3{
+			margin-top : 2px;
+			   height: 100%;
+			   width: 100%;
+			   background-color: white;
+			   border-radius: 8px;
+			}	
+			.bg-6{
+			  
+			}
+			
+		 </style>
+		
+		</head>  
+<body>
+     <div class="container">
+	     <div class="container-fluid bg-1 text-center">
+    
+             <img src="img/Header.jpg" alt="Header" class="img-rounded">
+    
+            </div>
+			<div class="container-fluid bg-2">
+			   <h3> NAv class</h3>
+			 </div>
+			 <div class="container-fluid bg-3 text-center">
+			 <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+          
+          <center><h1>Admin Login</h1></center><br />
+          
+         <form class="form-horizontal" method="post" action="Adminlogin_process.jsp">
+            
+            <div class="form-group">
+      <label class="control-label col-sm-4" for="Usernamelbl">User Name:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" name="username" id="username" placeholder="username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-4" for="passlbl">PassWord:</label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+      </div>
+    </div>
+           <center><input type="submit" value="Sign in" class="btn btn-primary"/></center>  
+         </form>
+        
+     </div>
+      <div class="col-sm-3"></div>
+			    
+			 </div>
+			
+		      <footer class="container-fluid bg-4 text-center">
+              <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+              </footer>	
+	 </div>
+     
+</body>
+</html>
